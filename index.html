@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Broome Dispatch: Gang Wars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🚔 Broome Dispatch: Gang Wars</h1>
+
+<div class="stats">
+    <div>Day: <span id="day">1</span></div>
+    <div>Safety: <span id="safety">100</span>%</div>
+    <div>Gang Threat: <span id="threat">1</span></div>
+    <div>Funds: $<span id="money">1000</span></div>
+    <div>Deaths: <span id="deaths">0</span></div>
+</div>
+
+<div class="units">
+    <h2>Available Units</h2>
+    <p>Police: <span id="police">6</span></p>
+    <p>Fire: <span id="fire">3</span></p>
+    <p>Ambulance: <span id="ambulance">4</span></p>
+</div>
+
+<div id="incident" class="incident"></div>
+
+<div class="buttons">
+    <button onclick="dispatchIncident()">Dispatch</button>
+    <button onclick="ignoreIncident()">Ignore</button>
+</div>
+
+<h2>Dispatch Log</h2>
+<div id="log"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
