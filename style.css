@@ -14,11 +14,9 @@ h1 {
     position:relative;
 }
 
-}
 .unit{
-    display:flex;
-    align-items:center;
-    gap:10px;
+    position:absolute;
+    width:48px;
 }
 
 .jpeg{
