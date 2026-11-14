@@ -14,9 +14,6 @@ h1 {
     position:relative;
 }
 
-.unit{
-    position:relative;
-    width:48px;
 }
 .unit{
     display:flex;
