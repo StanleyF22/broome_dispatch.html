@@ -167,6 +167,10 @@ const safetyEl = document.getElementById("safety");
 const threatEl = document.getElementById("threat");
 const moneyEl = document.getElementById("money");
 const deathsEl = document.getElementById("deaths");
+const police1 = document.getElementById("police1");
+
+police1.style.left = "500px";
+police1.style.top = "300px";
 
 const policeEl = document.getElementById("police");
 const fireEl = document.getElementById("fire");
