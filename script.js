@@ -23,7 +23,7 @@ risk:2
 name:"Gang Fight",
 police:2,
 fire:0,
-ambulance:1,
+ambulance:0,
 reward:250,
 risk:5
 },
@@ -170,7 +170,7 @@ const deathsEl = document.getElementById("deaths");
 
 const policeEl = document.getElementById("police");
 const fireEl = document.getElementById("fire");
-const ambulanceEl = document.getElementById("ambulance");
+const ambulanceEl = document.getElementById("ambo");
 
 updateUI();
 generateIncident();
