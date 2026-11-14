@@ -15,8 +15,16 @@ h1 {
 }
 
 .unit{
-    position:absolute;
-    width:48px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.jpeg{
+    width:32px;
+    height:32px;
+    object-fit:contain;
+
 }
 .stats,
 .units {
