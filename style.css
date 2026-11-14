@@ -15,7 +15,7 @@ h1 {
 }
 
 .unit{
-    position:absolute;
+    position:relative;
     width:48px;
 }
 .unit{
