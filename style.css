@@ -18,6 +18,17 @@ h1 {
     position:absolute;
     width:48px;
 }
+.unit{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.png{
+    width:32px;
+    height:32px;
+    object-fit:contain;
+}
 
 .stats,
 .units {
