@@ -1,30 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Broome Dispatch: Gang Wars</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Broome Dispatch: Gang Wars</title>
+
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <h1>🚔 Broome Dispatch: Gang Wars</h1>
-<div id="map">
-    <img src="assets/broome_map.jpg">
-
-    <img
-        id="police1"
-         class="unit"
-         src="assets/police1.jpg"
-    
-    id="fire1"
-        class="unit"
-        src="assets/fire1.jpg"
-    
-    id="ambo1"
-        class="unit"
-        src="assets/ambo1.jpg">
-
-</div>
 
 <div class="stats">
     <div>Day: <span id="day">1</span></div>
@@ -34,32 +20,74 @@
     <div>Deaths: <span id="deaths">0</span></div>
 </div>
 
-    <div class="unit">
-        <img src="assets/police.jpg" class="jpeg">
+<div id="map">
+
+    <img
+        id="mapImage"
+        src="assets/broome_map.jpg"
+        alt="Broome Map">
+
+    <img
+        id="police1"
+        class="unit"
+        src="assets/police1.jpg"
+        alt="Police">
+
+    <img
+        id="fire1"
+        class="unit"
+        src="assets/fire1.jpg"
+        alt="Fire">
+
+    <img
+        id="ambo1"
+        class="unit"
+        src="assets/ambo1.jpg"
+        alt="Ambulance">
+
+</div>
+
+<div class="units">
+
+    <div>
+        🚔 Police:
         <span id="police">6</span>
     </div>
 
-    <div class="unit">
-        <img src="assets/fire.jpg" class="jpeg">
+    <div>
+        🚒 Fire:
         <span id="fire">3</span>
     </div>
 
-    <div class="unit">
-        <img src="assets/ambo.jpg" class="jpeg">
+    <div>
+        🚑 Ambulance:
         <span id="ambo">4</span>
+    </div>
 
 </div>
 
+<div id="incident" class="incident">
+    Ready for dispatch.
 </div>
-
-<div id="incident" class="incident"></div>
 
 <div class="buttons">
-    <button onclick="dispatchIncident()">Dispatch</button>
-    <button onclick="ignoreIncident()">Ignore</button>
+
+    <button onclick="dispatchPolice()">
+        Dispatch Police
+    </button>
+
+    <button onclick="dispatchFire()">
+        Dispatch Fire
+    </button>
+
+    <button onclick="dispatchAmbulance()">
+        Dispatch Ambulance
+    </button>
+
 </div>
 
 <h2>Dispatch Log</h2>
+
 <div id="log"></div>
 
 <script src="script.js"></script>
