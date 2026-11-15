@@ -1,0 +1,83 @@
+<svg width="1000" height="700" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="1000" height="700" fill="#78c2ff"/>
+
+<rect x="180" y="80" width="700" height="520" fill="#d9c79b"/>
+
+<rect x="40" y="250" width="150" height="250" fill="#f0d28c"/>
+<text x="60" y="380" font-size="24" fill="black">Cable Beach</text>
+
+<rect x="700" y="80" width="180" height="120" fill="#7d7d7d"/>
+<text x="720" y="140" font-size="18" fill="white">Airport</text>
+
+<rect x="720" y="450" width="140" height="90" fill="#555"/>
+<text x="735" y="500" font-size="18" fill="white">Port</text>
+
+<rect x="430" y="280" width="140" height="100" fill="#c49a6c"/>
+<text x="445" y="335" font-size="20" fill="black">Chinatown</text>
+
+<rect x="600" y="220" width="140" height="140" fill="#8dc98d"/>
+<text x="610" y="295" font-size="18">Roebuck</text>
+
+<line x1="100" y1="350" x2="900" y2="350"
+stroke="#404040"
+stroke-width="16"/>
+
+<text x="350" y="340" font-size="18" fill="white">
+Cable Beach Road
+</text>
+
+<line x1="500" y1="50"
+x2="500" y2="650"
+stroke="#444"
+stroke-width="14"/>
+
+<text x="510" y="150" font-size="18">
+Broome Road
+</text>
+
+<line x1="250" y1="170"
+x2="800" y2="170"
+stroke="#555"
+stroke-width="10"/>
+
+<text x="450" y="160">
+Frederick Street
+</text>
+
+<line x1="250" y1="500"
+x2="800" y2="500"
+stroke="#555"
+stroke-width="10"/>
+
+<text x="470" y="490">
+Robinson Street
+</text>
+
+<circle cx="410" cy="220" r="18" fill="blue"/>
+<text x="435" y="227" font-size="18">
+Police HQ
+</text>
+
+<circle cx="460" cy="250" r="18" fill="red"/>
+<text x="485" y="257" font-size="18">
+Fire Station
+</text>
+
+<circle cx="520" cy="220" r="18" fill="green"/>
+<text x="545" y="227" font-size="18">
+Hospital
+</text>
+
+<rect x="790" y="260"
+width="80"
+height="80"
+fill="rgba(255,0,0,.5)"/>
+
+<text x="768" y="250"
+font-size="16"
+fill="darkred">
+Gang Territory
+</text>
+
+</svg>
